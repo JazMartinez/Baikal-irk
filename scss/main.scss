@@ -1,0 +1,60 @@
+//цветовая схема
+$mcolor: #4B8085;
+$tcolor: #020202;
+$scolor: #7C7B7B;
+
+//кнопка
+$btn-color: #DF9A27;
+$btn-hover: #E38000;
+$btn-shadow: #92630A;
+
+//фон
+$footer: #303030;
+$header: #fff;
+$mblock: #EBEBEB;
+
+//шрифты
+$ubuntu: 'Ubuntu', sans-serif;
+$lato: 'Lato', sans-serif;
+
+// bootstrap
+@import "import/bootstrap/bootstrap";
+
+// main styles
+@import "import/header";
+@import "import/footer";
+@import "import/slider";
+@import "import/categories";
+@import "import/attraction";
+@import "import/calendar";
+@import "import/feedback";
+@import "import/catalog";
+@import "import/breadcrumbs";
+@import "import/title";
+@import "import/booking";
+@import "import/disabled";
+@import "import/tabs";
+
+
+body {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: $header;
+  font-size: 16px;
+  font-family: $ubuntu;
+}
+
+.posrel {
+  position: relative;
+}
+.posabs {
+  position: absolute;
+}
+.posfix {
+  position: fixed;
+}
+
+.dibl {
+  display: inline-block;
+}

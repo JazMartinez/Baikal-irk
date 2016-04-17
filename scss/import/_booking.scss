@@ -1,0 +1,102 @@
+#bl-booking {
+  position: relative;
+  width: 1145px;
+  height: auto;
+  padding: 15px 55px;
+  background: $mblock;
+  margin: 0 auto;
+  input {
+    position: relative;
+    font-size: 16px;
+    padding: 20px 6px;
+    margin-top: 5px;
+    &[type='date'],
+    &[type='time'] {
+      height: 42px;
+      padding: 7px 6px;
+    }
+  }
+  select {
+    height: 42px;
+    margin-top: 5px;
+  }
+  .bl-guests-hov {
+    position: relative;
+    background: #fff;
+    padding: 9px 25px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    &:focus + .bl-guests{
+      visibility: visible;
+      opacity: 1;
+    }
+  }
+  .bl-guests {
+    position: absolute;
+    top: 60px;
+    left: -5px;
+    width: 160px;
+    height: 80px;
+    background: #fff;
+    border: 1px solid #ccc;
+    z-index: 101;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .3s linear;
+    &:hover {
+      visibility: visible;
+      opacity: 1;
+      transition-delay: 1s;
+    }
+    label {
+      font-size: 14px;
+      color: #7C7B7B;
+    }
+    input {
+      margin-top: 0;
+      padding: 18px 6px;
+    }
+  }
+  h2 {
+    font-size: 20px;
+    padding-left: 15px;
+  }
+  .bl-booking-btn {
+    margin-left: 15px;
+    position: relative;
+    text-align: center;
+    width: 238px;
+    height: 52px;
+    border: 1px solid $scolor;
+    border-radius: 3px;
+    .btn {
+      vertical-align: middle;
+      text-transform: uppercase;
+      font-family: $ubuntu;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffffff;
+      padding: 6px 25px;
+      margin: 3px;
+      outline: none;
+      background: $btn-color;
+      box-shadow: 0 3px 0 0 $btn-shadow;
+      transition: all .3s linear;
+      &:hover {
+        background: $btn-hover;
+      }
+      &:active,
+      &:focus {
+        box-shadow: inset 0 0 3px 3px rgba(0,0,0,.1);
+      }
+    }
+  }
+  .bl-i {
+    position: absolute;
+    bottom: 25px;
+    width: 10px;
+    left: 50%;
+    margin-left: -5px;
+  }
+}

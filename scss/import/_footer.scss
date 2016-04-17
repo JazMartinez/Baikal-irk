@@ -1,0 +1,65 @@
+#footer {
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: $footer;
+  padding: 30px 0;
+  margin-top: 30px;
+  .bl-footer-info {
+    font-family: $ubuntu;
+    color: #ffffff;
+    p {
+      font-size: 24px;
+      margin: 0;
+    }
+    address {
+      margin: 0;
+      a {
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+        &:hover {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+  #bl-bottom-menu {
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    .bl-btm-item {
+      a {
+        font-size: 16px;
+        font-weight: 300;
+        color: #ffffff;
+        &:hover {
+          text-decoration: underline !important;
+        }
+      }
+    }
+  }
+  .bl-social {
+    float: right;
+    text-align: right;
+    margin-top: 20px;
+    .bl-social-item {
+      margin: 0 5px;
+      padding: 12px 19px;
+      background-image: url("../images/footer/icons.png");
+      background-repeat: no-repeat;
+      background-position-x: 0;
+      &:nth-of-type(2){
+        padding: 12px 18.999999px;
+        background-position-x: -41px;
+      }
+      &:nth-of-type(3){
+        padding: 12px 19.3px;
+        background-position-x: -81px;
+      }
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

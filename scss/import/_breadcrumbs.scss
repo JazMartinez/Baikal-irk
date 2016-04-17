@@ -1,0 +1,22 @@
+#bl-bredcrumbs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  background: $mcolor;
+  padding: 5px 0;
+  z-index: 101;
+  .row {
+    padding-left: 18px;
+    color: #ffffff;
+    font-weight: 300;
+    a {
+      color: #ffffff;
+      font-weight: 300;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

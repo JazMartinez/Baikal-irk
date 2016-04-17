@@ -1,0 +1,57 @@
+
+//Header
+header {
+  width: 100%;
+  height: auto;
+  background: $header;
+  .bl-logo {
+    img {
+      margin: 20px 0;
+    }
+    h1 {
+      font-family: $ubuntu;
+      font-size: 33px;
+      color: $mcolor;
+      font-weight: 700;
+      vertical-align: -20%;
+    }
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  #bl-top-menu {
+    float: right;
+    margin-top: 35px;
+    list-style: none;
+    font-family: $ubuntu;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    .bl-nav-item {
+      margin: 0 25px;
+      display: inline-block;
+      a {
+        text-decoration: none;
+        color: $tcolor;
+        transition: all .3s linear;
+        &:hover {
+          color: $mcolor;
+        }
+      }
+    }
+    .bl-lang-change {
+      text-transform: uppercase;
+      margin: 0;
+      a {
+        padding: 5px 6px;
+        border: 1px solid $mcolor;
+        background: transparent;
+        transition: all .3s linear;
+        &:hover {
+          background: $mcolor;
+          color: #fff;
+        }
+      }
+    }
+  }
+}

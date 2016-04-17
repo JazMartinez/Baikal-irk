@@ -1,0 +1,36 @@
+#bl-categories {
+  width: 100%;
+  padding: 35px 0;
+  .bl-cat-item {
+    position: relative;
+    padding: 0;
+    transition: all .3s linear;
+    z-index: 3;
+    &:hover {
+      transform: scale(1.1);
+      z-index: 5;
+    }
+    .bl-cat-caption {
+      position: absolute;
+      display: block;
+      left: 20px;
+      bottom: 40px;
+      h2 {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-family: $ubuntu;
+        font-weight: 700;
+        font-size: 36px;
+        small {
+          position: absolute;
+          left: 1px;
+          top: 10px;
+          color: #ffffff;
+          text-transform: none;
+          font-size: 15px;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

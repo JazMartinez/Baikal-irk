@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="c7222a00-c550-415f-8c53-6b0535264b97" name="Jaz" url="http://92.53.126.24">
+        <fileTransfer host="92.53.126.24" port="21" rootFolder="/public_html" password="dffadfd9df99dfdfdf92dfcbdff3dffbdfcfdfc8dfdadfce" username="ct93058">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

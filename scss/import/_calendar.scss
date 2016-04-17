@@ -1,0 +1,59 @@
+#bl-calendar {
+  position: relative;
+  height: auto;
+  margin-top: 40px;
+  padding: 10px 80px 40px;
+  background: $mblock;
+  h2 {
+    font-family: $ubuntu;
+    font-size: 33px;
+    color: $mcolor;
+    font-weight: 400;
+    margin: 20px 0;
+  }
+  .bl-calendar-item {
+    width: 320px;
+    height: 316px;
+    padding: 60px 0;
+    text-align: center;
+    font-size: 52px;
+    background: #fff;
+  }
+  .bl-calendar-motion {
+    position: relative;
+    margin-left: 15px;
+    .bl-cal-caption {
+      position: absolute;
+      right: 20px;
+      top: 30px;
+      width: 373px;
+      height: 258px;
+      background: #fff;
+      padding: 20px 37px;
+      font-family: $ubuntu;
+      h3 {
+        font-size: 24px;
+        margin: 0;
+        padding: 0;
+      }
+      p,li {
+        font-size: 16px;
+        font-weight: 300;
+        margin: 0;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 20px 0;
+        li {
+          text-decoration: underline;
+        }
+      }
+      p:nth-of-type(2){
+        text-align: right;
+        font-size: 24px;
+        font-weight: 400;
+      }
+    }
+  }
+}

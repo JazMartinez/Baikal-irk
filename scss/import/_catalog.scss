@@ -1,0 +1,76 @@
+#bl-catalog {
+  width: 100%;
+  height: auto;
+  padding: 30px 0;
+  h2 {
+    position: relative;
+    width: 999px;
+    margin: 0 auto;
+    font-size: 36px;
+    color: $mcolor;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .bl-catalog-item {
+    position: relative;
+    width: 999px;
+    height: auto;
+    margin: 40px auto;
+    background: $mblock;
+    .bl-catalog-caption {
+      position: absolute;
+      top: 37px;
+      right: 45px;
+      width: 530px;
+      height: auto;
+      background: #fff;
+      padding: 30px 25px 20px;
+      h3 {
+        font-size: 33px;
+        font-weight: 400;
+        color: #000000;
+        margin: 0;
+        padding: 0;
+      }
+      p {
+        color: #000000;
+        font-weight: 300;
+        &:nth-of-type(1) {
+          font-size: 20px;
+        }
+        &:nth-of-type(2) {
+          font-size: 16px;
+          margin-bottom: 20px;
+        }
+      }
+      a {
+        font-size: 20px;
+        color: #df9a27;
+      }
+      .bl-catalog-star {
+        position: absolute;
+        right: 10px;
+        top: 5px;
+        width: 76px;
+        height: 20px;
+        background: url("../images/star.png");
+      }
+    }
+  }
+  .bl-catalog-pagination {
+    text-align: center;
+    a {
+      font-size: 24px;
+      color: #7a7a7a;
+      padding: 0 5px;
+      &:nth-of-type(1) {
+        color: #000000;
+        text-decoration: underline;
+      }
+    }
+    a:nth-of-type(1) {
+      color: #000000;
+      text-decoration: underline;
+    }
+  }
+}
